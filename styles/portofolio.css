@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #b370cdbd;
+  --primary-color: #9270cdfc;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --hover-color: rgb(104, 0, 142);
@@ -8,7 +8,7 @@
 body {
   margin-top: 57px;
   margin-bottom: 100px;
-  background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  background: linear-gradient(-225deg, #f9e7e7 0%, #eed1e3 100%);
 }
 
 h1,
@@ -54,7 +54,7 @@ p {
 
 .typewriter .intro-msg {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid rgb(149, 0, 255); /* The typwriter cursor */
+  border-right: 0.15em solid rgb(255, 0, 115); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.15em; /* Adjust as needed */
@@ -78,7 +78,7 @@ p {
     border-color: transparent;
   }
   50% {
-    border-color: rgb(149, 0, 255);
+    border-color: rgb(255, 0, 119);
   }
 }
 
