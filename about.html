@@ -1,19 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script
-      type="text/javascript"
-      src="https://codesandbox.io/public/sse-hooks/sse-hooks.29ebf9c7c56b54ddfd75e5d13890b11c.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://codesandbox.io/static/js/banner.d9cb10a38.js"
-    ></script>
-
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SheCodes Portfolio</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -26,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/portofolio.css" />
+    <link rel="stylesheet" href="styles/portfolio.css" />
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -39,112 +29,131 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
-          <img
-            src="images/logo.png"
-            class="logo d-none d-md-block"
-            alt="dany Logo"
-          />
-          <img
-            src="images/logo-small.jpg"
-            class="logo d-block d-md-none"
-            alt="dany Logo"
-          />
-        </a>
-        <ul>
-          <li>
-            <a href="/" title="Homepage"> Home</a>
-          </li>
-          <li class="active">
-            <a href="/about.html" title="About Daniella"> About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Daniella's work"> Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Contact Daniella"> Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="content-container container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="content">
-            <h1 class="mb-4">Hi, I’m Daniella Djopa</h1>
-            <h2 class="mb-4">Front-end developer based in Portugal</h2>
-            <p class="mb-5">
-              I’m currently seeking new opportunities in front-end development.
-              I’m open to work remotely and have flexible hours. I’m highly
-              skilled in JavaScript and React.
-            </p>
-            <a href="/work.html" class="btn btn-branding">See my projects</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">daniella</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/" title="homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="about.html"
+                title="about daniella"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html" title="daniella's works"
+                >Works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" title="contact daniella"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="whole">
+      <div class="hero">
+        <h1 class="text-center mb-4">Hi, I am daniella 🍀</h1>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="images/dany.png"
+              class="img-fluid dany.png-img mb-3 mt-3"
+              alt="daniella"
+            />
+          </div>
+          <div class="col-sm-6">
+            <br />
+            <br />
+            <br />
+            <h3 class="text-center">
+              Front-end student developer from USA
+            </h3>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="images/dany.png" alt="" class="img-fluid" />
+        <div class="about-paragraphs text-center">
+          <p>
+            An american dedicated front-end developer with a passion for crafting
+            outstanding digital experiences. This portfolio is a canvas of my
+            journey, combining the latest tech with my design love to create
+            impressive web solutions!!
+          </p>
         </div>
       </div>
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-sm-6 mb-5">
+            <h2 class="mb-4 text-center">trip Project</h2>
+            <img
+              src="images/trip.png"
+              class="img-fluid homepage-img mb-4"
+              alt="shole zard desert"
+            />
+
+            <div class="mt-5">
+              <a
+                href="https://trip-xfc2.vercel./"
+                class="primary-link"
+                title="tourist trip  project"
+                target="_blank"
+              >
+                About trip</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h2 class="mb-4 text-center">Weather  Project</h2>
+            <img
+              src="images/weather.png"
+              class="img-fluid homepage-img mb-4"
+              alt="weather web lication"
+            />
+            <div class="mt-5">
+              <a
+                href="https://weather-responsive-seven.vercel./"
+                class="primary-link"
+                title="Weather project"
+                target="_blank"
+                >Launch Weather </a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mt-5">
+        This project was coded by <strong>daniella </strong>, and it is
+        <a
+          href="https://github.com/daniella-ft/Homework-week4-responsive"
+          class="git-link"
+          title="You can see the source of this page here."
+        >
+          Open-sourced
+        </a>
+        and hosted on USA.
+      </footer>
     </div>
-    <footer class="container">
-      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-        <div>
-          <h3>Work inquiry</h3>
-          <p class="text-muted">Let's work together</p>
-        </div>
-        <div>
-          <a
-            href="/contact.html"
-            class="btn btn-branding mt-3"
-            title="Contact Daniella"
-          >
-            Contact me
-          </a>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center mb-5">
-        <a
-          href="mailto:ntutudaniella5@gmail.com"
-          class="email-link"
-          title="Email Daniella"
-        >
-          ntutudaniella5@gmail.com
-        </a>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a
-          href="https://github.com/Daniella237328/portofolioproject"
-          target="_blank"
-          title="GitHub Profile"
-        >
-          <i class="fab fa-github"></i>
-        </a>
-        <a
-          href="https://www.instragram.com/Daniella"
-          target="_blank"
-          title="instragram Profile"
-        >
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a
-          href="https://www.twitter.com/Daniella"
-          target="_blank"
-          title="Twitter Profile"
-        >
-          <i class="fab fa-twitter"></i>
-        </a>
-      </div>
-      <p class="text-center mt-5">
-        ✌️ This website was coded by Daniella Djopa☘️, and is
-        <a
-          href="https://github.com/Daniella237328/portofolioproject"
-          target="_blank"
-        >
-          open-sourced
-        </a>
-      </p>
-    </footer>
   </body>
 </html>
